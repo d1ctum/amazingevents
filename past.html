@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="d-flex flex-row justify-content-around align-items-center">
+                <img src="./assets/img/logoae.png" alt="" id="logoheader" class="p-4">
+                <nav class="d-flex flex-row gap-4" id="nav">
+                    <a href="./index.html"
+                        class="navbarbtn d-flex btn btn-outline-primary w-25 justify-content-center navbarbtn">Home</a>
+                    <a href="./upcoming.html"
+                        class="navbarbtn d-flex btn btn-outline-primary w-25 justify-content-center navbarbtn">Upcoming
+                        Events</a>
+                    <a href="#"
+                        class="navbarbtn d-flex btn btn-outline-primary w-25 justify-content-center navbarbtn">Past
+                        Events</a>
+                    <a href="./contact.html"
+                        class="navbarbtn d-flex btn btn-outline-primary w-25 justify-content-center navbarbtn">Contact</a>
+                    <a href="./stats.html"
+                        class="navbarbtn d-flex btn btn-outline-primary w-25 justify-content-center">Stats</a>
+                </nav>
+            </div>
+        </header>
+        <section id="pag-switch">
+            <div class="d-flex flex-row justify-content-evenly">
+                <a href="./stats.html" class="d-flex  btn btn-outline-primary mt-5 mb-5">&lt;</a>
+                        <h1 class="justify-content-center pt-5 mb-5 text-white s">Past Events</h1>
+                        <a href="./upcoming.html" class="btn btn-outline-primary mt-5 mb-5">></a>
+            </div>
+        </section>
+        <section id="pag-body" class="ms-xxl-5 me-xxl-5 mt-0">
+            <article id="pag-filters">
+                <div class="pt-3 pb-3">
+                    <form action="..." class="d-flex flex-row justify-content-around align-items-center">
+                        <fieldset class="d-flex flex-row gap-4">
+                            <label for="category1">
+                                <input type="checkbox" name="category" id="category1">
+                                Category
+                            </label>
+                            <label for="category2">
+                                <input type="checkbox" name="category" id="category2">
+                                Category
+                            </label>
+                            <label for="category3">
+                                <input type="checkbox" name="category" id="category3">
+                                Category
+                            </label>
+                            <label for="category4">
+                                <input type="checkbox" name="category" id="category4">
+                                Category
+                            </label>
+                            <label for="category5">
+                                <input type="checkbox" name="category" id="category5">
+                                Category
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <label for="search" class="d-inline-flex flex-lg-grow-1">
+                                <input type="search" name="searchfilter" id="search">
+                            </label>
+                            <label for="searchbtn">
+                                <button class="bi-search border-opacity-25" id="searchbtn"></button>
+                            </label>
+                        </fieldset>
+                    </form>
+                </div>
+            </article>
+            <article id="items">
+                <div class="d-flex flex-row justify-content-around pt-5 pb-5">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./assets/img/item-ej.png" class="p-3 img-item" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Título</h5>
+                            <p class="card-text">Texto descriptivo</p>
+                            <div class="d-flex flex-row justify-content-around text-">
+                                <p class="card-text">Precio $0000</p>
+                                <a href="#" class="btn btn-outline-secondary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 17rem;">
+                        <img src="./assets/img/item-ej.png" class="p-3 img-item" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Título</h5>
+                            <p class="card-text">Texto descriptivo</p>
+                            <div class="d-flex flex-row justify-content-around text-">
+                                <p class="card-text">Precio $0000</p>
+                                <a href="#" class="btn btn-outline-secondary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 17rem;">
+                        <img src="./assets/img/item-ej.png" class="p-3 img-item" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Título</h5>
+                            <p class="card-text">Texto descriptivo</p>
+                            <div class="d-flex flex-row justify-content-around text-">
+                                <p class="card-text">Precio $0000</p>
+                                <a href="#" class="btn btn-outline-secondary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 17rem;">
+                        <img src="./assets/img/item-ej.png" class="p-3 img-item" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Título</h5>
+                            <p class="card-text">Texto descriptivo</p>
+                            <div class="d-flex flex-row justify-content-around text-">
+                                <p class="card-text">Precio $0000</p>
+                                <a href="#" class="btn btn-outline-secondary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer class="d-flex flex-row justify-content-between align-content-center">
+            <div id="contenedor-botones" class="d-flex flex-row justify-content-around gap-4 align-content-center">
+                <a class="btn-socialm btn btn-light bi-instagram" href="https://www.instagram.com/" role="button"></a>
+                <a class="btn-socialm btn btn-light bi-facebook" href="https://www.facebook.com/" role="button"></a>
+                <a class="btn-socialm btn btn-light bi-whatsapp" href="https://www.facebook.com/" role="button"></a>
+            </div>
+            <h1 id="cohorte">Cohorte 13-TN</h1>
+        </footer>
+    </main>
+
+</body>
+
+</html>
