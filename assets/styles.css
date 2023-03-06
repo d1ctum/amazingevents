@@ -51,7 +51,7 @@ footer{
 }
 
 .btn-socialm{
-    font-size: 3rem!important;
+    font-size: 2rem!important;
     border-radius: 4rem;
 }
 
@@ -78,4 +78,9 @@ footer{
 
 #formcontact{
     padding-bottom: 3.4rem;
+}
+
+
+#imgdetails{
+    min-width: 400px;
 }
