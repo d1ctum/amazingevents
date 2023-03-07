@@ -33,7 +33,9 @@ a[href="#"]{
 }
 
 .img-item{
-    box-shadow: 2px 5px 10px black;;
+    box-shadow: 2px 5px 10px black;
+    min-height: 15rem;
+    max-height: 15rem;
 }
 
 #items{
@@ -83,4 +85,17 @@ footer{
 
 #imgdetails{
     min-width: 400px;
+}
+
+#cardContainer{
+    flex-wrap: wrap;
+}
+
+.card{
+    min-width: 20rem;
+    margin-bottom: 5rem;
+}
+
+.eventDesc{
+    min-height: 5rem;
 }
