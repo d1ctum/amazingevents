@@ -14,9 +14,6 @@ a[href="#"]{
 
 #pag-switch{
     background-color: #19191a;
-}
-
-#pag-switch{
     text-shadow: -5px 5px 5px black;;
 }
 
@@ -98,4 +95,125 @@ footer{
 
 .eventDesc{
     min-height: 5rem;
+}
+
+@media (min-width: 1921px) and (max-width: 2560px){
+    .card {
+        min-width: 30vh;
+        min-height: 30vh;
+        margin-bottom: 5vh;
+        font-size: larger;
+    }
+
+    .navbarbtn{
+        min-width: 10vh;
+        min-height: 5vh;
+        font-size: x-large;
+    }
+
+    #logoheader {
+        min-height: 10vh;
+        min-width: 40vh;
+    }
+
+    /* #pag-switch {
+        min-height: 10vh;
+    } */
+
+    .switch-content{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .categories{
+        font-size: x-large;
+    }
+
+    .btn-socialm{
+        font-size: 5vh!important;
+    }
+
+    #cohorte{
+        font-size: 5vh!important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1920px){
+    .card {
+        min-width: 10vh;
+        min-height: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .navbarbtn{
+        min-width: 10vh;
+        min-height: 5vh;
+        font-size: large;
+    }
+
+    #logoheader {
+        min-height: 5vh;
+        min-width: 10vh;
+    }
+
+    /* #pag-switch {
+        min-height: 10vh;
+    } */
+
+    .switch-content{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .categories{
+        font-size: larger;
+    }
+
+    .btn-socialm{
+        font-size: 4vh!important;
+    }
+
+    #cohorte{
+        font-size: 4vh!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .card {
+        min-width: 10vh;
+        min-height: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .navbarbtn{
+        max-width: 5vh;
+        max-height: 3vh;
+        font-size: smaller;;
+    }
+
+    #logoheader {
+        max-height: 7vh;
+        min-width: 5vh;
+    }
+
+    /* #pag-switch {
+        min-height: 10vh;
+    } */
+
+    .switch-content{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .categories{
+        font-size: larger;
+    }
+
+    .btn-socialm{
+        font-size: 4vh!important;
+    }
+
+    #cohorte{
+        font-size: 4vh!important;
+    }
 }
