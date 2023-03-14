@@ -1,3 +1,12 @@
+let searchInput = document.querySelector("#search-bar")
+
+// searchInput.addEventListener("input", e => {
+//     const value = e.target.value
+//     data.events.forEach(event => {
+//         let eventSearch = event.filter(event => event.name.includes(value) || event.description.includes(value))
+//         event-
+//     })
+// })
 
 let cardContainer = document.getElementById('cardContainer')
 
@@ -12,7 +21,7 @@ for (const event of data.events) {
                 <p class="card-text eventDesc">${event.description}</p>
                 <div class="d-flex flex-row justify-content-around text-">
                     <p class="card-text">$${event.price}</p>
-                    <a href="./details.html" class="btn btn-outline-secondary">Ver más</a>
+                    <a href="./details.html?id=${event.id}" class="btn btn-outline-secondary">Ver más</a>
                 </div>
             </div>
     </div>
