@@ -217,3 +217,59 @@ footer{
         font-size: 4vh!important;
     }
 }
+
+@media (min-width: 400px) and (max-width:768px){
+    #pag-body{
+        min-width: 400px                                                ;
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 645px;
+        padding-bottom: 3vh;
+    }
+
+    .card {
+        min-width: 10vh;
+        min-height: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .navbarbtn{
+        min-width: 10vh;
+        min-height: 5vh;
+        font-size: large;
+    }
+
+    #logoheader {
+        min-height: 5vh;
+        min-width: 10vh;
+    }
+
+    /* #pag-switch {
+        min-height: 10vh;
+    } */
+
+    .switch-content{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .categories{
+        font-size: larger;
+    }
+
+    .btn-socialm{
+        font-size: 4vh!important;
+    }
+
+    #cohorte{
+        font-size: 4vh!important;
+    }
+
+    .pagb{
+        min-width: 645px;
+    }
+}
