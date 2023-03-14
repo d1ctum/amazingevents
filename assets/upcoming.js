@@ -16,7 +16,7 @@ for (const event of eventUpcoming) {
                 <p class="card-text eventDesc">${event.description}</p>
                 <div class="d-flex flex-row justify-content-around text-">
                     <p class="card-text">$${event.price}</p>
-                    <a href="./details.html" class="btn btn-outline-secondary">Ver más</a>
+                    <a href="./details.html?id=${event.id}" class="btn btn-outline-secondary">Ver más</a>
                 </div>
             </div>
     </div>
