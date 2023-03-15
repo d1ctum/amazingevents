@@ -38,6 +38,14 @@ input.addEventListener("input", filter)
 
 paintCards(data.event)
 
+function paintCards(dataArray){
+    if(dataArray.length == 0)
+}
+
+function inputFiltered(){
+
+}
+
 function filter(){
     let filteredArray1 = inputFiltered(data.event, input.value)
 }
