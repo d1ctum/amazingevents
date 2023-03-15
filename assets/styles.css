@@ -58,7 +58,7 @@ footer{
     color: white;
     text-align: center;
     padding-top: 1rem;
-    padding-right: 16rem;
+    /* padding-right: 16rem; */
 }
 
 #name,#mail{
@@ -139,9 +139,16 @@ footer{
 }
 
 @media (min-width: 1025px) and (max-width: 1920px){
+    #pag-body{
+        min-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
     .card {
-        min-width: 10vh;
-        min-height: 5vh;
+        max-width: 15vh;
+        min-height: 42vh;
+        min-height: 400px;
         margin-bottom: 5vh;
     }
 
@@ -173,32 +180,54 @@ footer{
         font-size: 4vh!important;
     }
 
+    #contenedor-botones{
+        padding-left: 15%;
+    }
+
     #cohorte{
         font-size: 4vh!important;
+        padding-right: 15%;
     }
+    
+    #search-bar{
+        font-size: x-large;
+    }
+
+    .categories{
+        font-size: x-large;
+    }
+
+    /* #stats-container{
+        padding-right: 10%;
+    } */
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-    .card {
-        min-width: 10vh;
-        min-height: 5vh;
+    #pag-body{
+        min-width: 80%;
+        margin-left: 10%!important;
+    }
+
+    #card-template {
+        max-width: 5vh!important;
+        max-height: 70vh;
         margin-bottom: 5vh;
     }
 
     .navbarbtn{
-        max-width: 5vh;
-        max-height: 3vh;
-        font-size: smaller;;
+        min-width: 4vh;
+        max-height: 2vh;
+        font-size: smaller;
     }
 
     #logoheader {
-        max-height: 7vh;
-        min-width: 5vh;
+        max-height: 14vh;
+        min-width: 9vh;
     }
 
-    /* #pag-switch {
-        min-height: 10vh;
-    } */
+    #pag-switch {
+        max-height: 15vh;
+    }
 
     .switch-content{
         padding-top: 2vh;
@@ -206,7 +235,7 @@ footer{
     }
 
     .categories{
-        font-size: larger;
+        font-size: medium;
     }
 
     .btn-socialm{
@@ -220,27 +249,27 @@ footer{
 
 @media (min-width: 400px) and (max-width:768px){
     #pag-body{
-        min-width: 400px                                                ;
+        min-width: 80%;
+        margin-left: 10%!important;                                       ;
     }
 
     .header-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: row-;
         flex-wrap: wrap;
-        max-width: 645px;
+        max-width: 100%;
         padding-bottom: 3vh;
     }
 
     .card {
-        min-width: 10vh;
-        min-height: 5vh;
+        min-width: 200px;
         margin-bottom: 5vh;
     }
 
     .navbarbtn{
-        min-width: 10vh;
+        min-width: 15vh;
         min-height: 5vh;
-        font-size: large;
+        font-size: medium;
     }
 
     #logoheader {
@@ -258,7 +287,7 @@ footer{
     }
 
     .categories{
-        font-size: larger;
+        font-size: small;
     }
 
     .btn-socialm{
@@ -267,6 +296,11 @@ footer{
 
     #cohorte{
         font-size: 4vh!important;
+        margin: 0;
+    }
+
+    #contenedor-botones{
+        padding: 0;
     }
 
     .pagb{

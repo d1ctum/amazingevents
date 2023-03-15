@@ -1,4 +1,4 @@
-let searchInput = document.querySelector("#search-bar")
+// let searchInput = document.querySelector("#search-bar")
 
 // searchInput.addEventListener("input", e => {
 //     const value = e.target.value
@@ -14,7 +14,7 @@ let template = ""
 
 for (const event of data.events) {
     template += `
-    <div class="card" style="width: 17rem;">
+    <div class="card" id="card-template">
         <img src="${event.image}" class="p-3 img-item" alt="..."></img>
             <div class="card-body text-center">
                 <h5 class="card-title">${event.name}</h5>
@@ -29,3 +29,15 @@ for (const event of data.events) {
 }
 
 cardContainer.innerHTML = template
+
+// input filtro
+
+const searchInput = document.querySelector("input")
+
+input.addEventListener("input", filter)
+
+paintCards(data.event)
+
+function filter(){
+    let filteredArray1 = inputFiltered(data.event, input.value)
+}
