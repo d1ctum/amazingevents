@@ -54,3 +54,4 @@ function paintCards(dataArray){
 }
 
 paintCards()
+
