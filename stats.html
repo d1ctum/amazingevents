@@ -15,7 +15,7 @@
 <body class="d-flex flex-column">
     <main>
         <header>
-            <div class="d-flex flex-row justify-content-around align-items-center">
+            <div class="d-flex flex-row justify-content-around align-items-center header-container">
                 <img src="./assets/img/logoae.png" alt="" id="logoheader" class="p-2">
                 <nav class="d-flex flex-row gap-4" id="nav">
                     <a href="./index.html"
@@ -50,9 +50,9 @@
                             <th class="table-info">Event with larger capacity</th>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td id="highestAttendance"></td>
+                            <td id="lowestAttendance"></td>
+                            <td id="largestCapacity"></td>
                         </tr>
                     </thead>
                 </table>
@@ -65,28 +65,33 @@
                             <th class="table-info">Percentage of attendance</th>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td>Food</td>
+                            <td id="revenuesFood">&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td>Books</td>
+                            <td id="revenuesBooks">&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
+                            <td>Party</td>
+                            <td id="revenuesParty">&nbsp;</td>
                             <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Race</td>
+                            <td id="revenuesRace">&nbsp;</td>
                             <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Concert</td>
+                            <td id="revenuesConcert">&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Museum</td>
+                            <td id="revenuesMuseum">&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                     </thead>
@@ -100,28 +105,38 @@
                             <th class="table-info">Percentage of attendance</th>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td>Food</td>
+                            <td id="revenuesFoodPast">&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td>Museum</td>
+                            <td id="revenuesMuseumPast">&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
+                            <td>Concert</td>
+                            <td id="revenuesConcertPast">&nbsp;</td>
                             <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Race</td>
+                            <td id="revenuesRacePast">&nbsp;</td>
                             <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Books</td>
+                            <td id="revenuesMuseumPast">&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Cinema</td>
+                            <td id="revenuesCinemaPast">&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Parties</td>
+                            <td id="revenuesPartiesPast">&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                     </thead>
@@ -137,6 +152,9 @@
             <h1 id="cohorte">Cohorte 13-TN</h1>
         </footer>
     </main>
+
+    <script src="./assets/data.js"></script>
+    <script src="./assets/stats.js"></script>
 
 </body>
 

@@ -102,6 +102,7 @@ footer{
         min-width: 30vh;
         min-height: 30vh;
         margin-bottom: 5vh;
+        margin-left: 5vh;
         font-size: larger;
     }
 
@@ -135,6 +136,19 @@ footer{
 
     #cohorte{
         font-size: 5vh!important;
+        padding-right: 10%;
+    }
+
+    #categories{
+        font-size: xx-large;
+    }
+    
+    input{
+        font-size: xx-large;
+    }
+
+    .pag-switch{
+        font-size: xx-large;
     }
 }
 
@@ -156,11 +170,19 @@ footer{
         min-width: 10vh;
         min-height: 5vh;
         font-size: large;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     #logoheader {
-        min-height: 5vh;
-        min-width: 10vh;
+        min-height: 7vh;
+        min-width: 30vh;
     }
 
     /* #pag-switch {
@@ -172,7 +194,7 @@ footer{
         padding-bottom: 2vh;
     }
 
-    .categories{
+    #categories{
         font-size: larger;
     }
 
@@ -220,6 +242,12 @@ footer{
         font-size: smaller;
     }
 
+    form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     #logoheader {
         max-height: 14vh;
         min-width: 9vh;
@@ -244,32 +272,50 @@ footer{
 
     #cohorte{
         font-size: 4vh!important;
+        margin-right: 5%;
+    }
+
+    #contenedor-botones{
+        padding: 0;
+        margin-left: 5%;
     }
 }
 
 @media (min-width: 400px) and (max-width:768px){
     #pag-body{
-        min-width: 80%;
-        margin-left: 10%!important;                                       ;
+        margin-left: 1%!important;
+        margin-right: 1%!important;                              
     }
 
     .header-container{
         display: flex;
-        flex-direction: row-;
+        flex-direction: row;
         flex-wrap: wrap;
-        max-width: 100%;
+        max-width: 645px;
         padding-bottom: 3vh;
     }
 
+    form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    input{
+        font: small;
+        margin-top: 5%;
+    }
+
     .card {
-        min-width: 200px;
+        min-width: 10vh;
+        min-height: 5vh;
         margin-bottom: 5vh;
     }
 
     .navbarbtn{
-        min-width: 15vh;
-        min-height: 5vh;
-        font-size: medium;
+        min-width: 6vh;
+        min-height: 3vh;
+        font-size: large;
     }
 
     #logoheader {
@@ -286,24 +332,38 @@ footer{
         padding-bottom: 2vh;
     }
 
-    .categories{
+    #categories{
         font-size: small;
     }
 
-    .btn-socialm{
-        font-size: 4vh!important;
+    input{
+        font: small;
+        margin-top: 5%;
     }
 
-    #cohorte{
-        font-size: 4vh!important;
-        margin: 0;
+    .btn-socialm{
+        font-size: 2vh!important;
     }
 
     #contenedor-botones{
         padding: 0;
+        margin-left: 5%;
     }
 
-    .pagb{
-        min-width: 645px;
+    #cohorte{
+        font-size: 2vh!important;
+        margin-right: 5%;
+    }
+
+    #pagb{
+        min-width: 100%;
+    }
+
+    div.header-container{
+        margin-right: 0;
+    }
+
+    footer{
+        max-width: 100%;
     }
 }
