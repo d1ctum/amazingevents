@@ -1,5 +1,15 @@
 header{
     background-color: black;
+    min-height: 10vh!important;
+}
+
+body {
+    min-height: 70vh!important;
+}
+
+footer{
+    background-color: #19191a;
+    min-height: 10vh!important;
 }
 
 a[href="#"]{
@@ -24,9 +34,10 @@ a[href="#"]{
 
 #pag-body{
     background: rgba(232, 232, 232, 0.3);
-    margin-left: 10rem!important;
-    margin-right: 10rem!important;
-    padding-bottom: max-content!important;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    /* padding-bottom: max-content!important; */
+    min-height: 70vh!important;
 }
 
 .img-item{
@@ -40,17 +51,12 @@ a[href="#"]{
     padding-right: 3rem!important;
 }
 
-footer{
-    background-color: #19191a;
-    margin-top: 6.8rem;
-}
-
 #contenedor-botones{
     padding-left: 16rem;
 }
 
 .btn-socialm{
-    font-size: 2rem!important;
+    font-size: 2vh!important;
     border-radius: 4rem;
 }
 
@@ -81,7 +87,10 @@ footer{
 
 
 #imgdetails{
-    min-width: 400px;
+    max-width: 70vh;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    border-radius: 15px;
 }
 
 #cardContainer{
@@ -97,7 +106,24 @@ footer{
     min-height: 5rem;
 }
 
+#detailsContainer{
+    align-items: center;
+}
+
+#categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 @media (min-width: 1921px) and (max-width: 2560px){
+    #pag-body{
+        min-width: 80%;
+        margin-left: 10%!important;
+        margin-right: 10%!important;
+    }
+
     .card {
         min-width: 30vh;
         min-height: 30vh;
@@ -150,13 +176,19 @@ footer{
     .pag-switch{
         font-size: xx-large;
     }
+
+    #detailsBorder{
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 @media (min-width: 1025px) and (max-width: 1920px){
     #pag-body{
         min-width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 10%!important;
+        margin-right: 10%!important;
     }
     
     .card {
@@ -228,6 +260,7 @@ footer{
     #pag-body{
         min-width: 80%;
         margin-left: 10%!important;
+        margin-right: 10%!important;
     }
 
     #card-template {
@@ -267,7 +300,7 @@ footer{
     }
 
     .btn-socialm{
-        font-size: 4vh!important;
+        font-size: 3vh!important;
     }
 
     #cohorte{

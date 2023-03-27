@@ -23,7 +23,7 @@ async function getData() {
                             <p class="card-text eventDesc">${event.description}</p>
                             <div class="d-flex flex-row justify-content-around text-">
                                 <p class="card-text">$${event.price}</p>
-                                <a href="./details.html?id=${event.id}" class="btn btn-outline-secondary">Ver más</a>
+                                <a href="./details.html?id=${event._id}" class="btn btn-outline-secondary">Ver más</a>
                             </div>
                         </div>
                 </div>
@@ -46,7 +46,7 @@ async function getData() {
                             <p class="card-text eventDesc">${event.description}</p>
                             <div class="d-flex flex-row justify-content-around text-">
                                 <p class="card-text">$${event.price}</p>
-                                <a href="./details.html?id=${event.id}" class="btn btn-outline-secondary">Ver más</a>
+                                <a href="./details.html?id=${event._id}" class="btn btn-outline-secondary">Ver más</a>
                             </div>
                         </div>
                 </div>
@@ -83,7 +83,7 @@ async function getData() {
             let arrayCheck = Array.from(checkboxes)
             let checkChecked = arrayCheck.filter(event => event.checked)
             if (checkChecked.length == 0) {
-                return eventsObj
+                return eventsArray
             }
             let checkValues = checkChecked.map(check => check.value)
             let filteredArray = eventsArray.filter(event => checkValues.includes(event.category))
